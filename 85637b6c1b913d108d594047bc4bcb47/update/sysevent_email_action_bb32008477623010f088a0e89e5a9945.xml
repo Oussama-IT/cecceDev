@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">source_table!=x_ndecd_triage_2_0_demande_de_partage^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_triage_2_0_demande_de_partage"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html/>
+        <digest_separator_text/>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>request.approval.inserted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="font-family: lato,arial,sans; max-width: 564px;">
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr style="border-bottom: 1px solid #DADDE2;">
+<td style="width: 100%; padding-bottom: 24px;" align="center"><span style="font-size: 24px; line-height: 36px; text-align: center;">${sysapproval.requested_for}'s request is awaiting your approval</span></td>
+</tr>
+<tr>
+<td height="24">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 100%; font-size: 16px; line-height: 24px;">${mail_script:request_greetings}</td>
+</tr>
+<tr>
+<td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 16px;">${sysapproval.requested_for} recently opened request <strong>${sysapproval}</strong>, and we need your approval before we proceed.</td>
+</tr>
+<tr>
+<td style="width: 100%; height: 52px; padding-top: 16px;"><span id="requestreject" class="btn" style="border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; color: #4f52bd;">${mailto:mailto.btn.rejection}</span><span id="requestapprove" class="btn inverse" style="margin-left: 16px; border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; background-color: #4f52bd; color: #fff;">${mailto:mailto.btn.approval}</span></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top: 16px; margin-bottom: 16px; font-size: 12pt;">${mail_script:request_approval}</div>
+<div style="font-size: 12pt; padding-bottom: 8px; line-height: 24px;">Thank you,<br />Fulfillment Team</div>
+</div>]]></message_html>
+        <message_list>24500b0253020200601fa3fc9ec58759</message_list>
+        <message_text/>
+        <name>Request approval assigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} a besoin de votre approbation</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2006-06-20 15:07:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>bb32008477623010f088a0e89e5a9945</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>Request approval assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">07ec9fba1bb221108d594047bc4bcb96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sysevent_email_action_bb32008477623010f088a0e89e5a9945</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:02</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aca368a0000001</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_bb32008477623010f088a0e89e5a9945</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:02</sys_created_on>
+        <sys_id>4daab3281bd13d108d594047bc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:02</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aa5283b0000002</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_bb32008477623010f088a0e89e5a9945</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global 2</previous_claim_name>
+        <previous_claim_scope>3f6f6fe41b913d108d594047bc4bcbd8</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:02</sys_created_on>
+        <sys_id>c1aab3281bd13d108d594047bc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:02</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aa5283b0000001</claim_timestamp>
+        <metadata_update_name>sysevent_email_action_bb32008477623010f088a0e89e5a9945</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog.plat</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog.plat</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:02</sys_created_on>
+        <sys_id>01aab3281bd13d108d594047bc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:02</sys_updated_on>
+    </sys_claim>
+</record_update>

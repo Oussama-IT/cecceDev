@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Access services and solutions related to information technology. </description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image>c43e5a2f1b24f110d991c882604bcb2e</homepage_image>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-10 18:57:11</sys_created_on>
+        <sys_id>11db354a1b6475d08d594047bc4bcbbb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>IT</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sc_category_11db354a1b6475d08d594047bc4bcbbb</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:31:42</sys_updated_on>
+        <title>IT</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=11db354a1b6475d08d594047bc4bcbbb"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>11db354a1b6475d08d594047bc4bcbbb</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 14:16:46</sys_created_on>
+        <sys_id>80bb2e2f1b64f110d991c882604bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:16:46</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Accéder aux services et aux solutions liés à la technologie de l'information.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>11db354a1b6475d08d594047bc4bcbbb</documentkey>
+        <fieldname>title</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 14:16:46</sys_created_on>
+        <sys_id>0cbb2e2f1b64f110d991c882604bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:16:46</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>IT</value>
+    </sys_translated_text>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#7f8491</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash>b5f267175021801233def98449222d55b6baed20345874c2e5d8f0b948f11934</hash>
+        <image_height>70</image_height>
+        <image_width>70</image_width>
+        <size_bytes>4123</size_bytes>
+        <size_compressed>4146</size_compressed>
+        <state>available</state>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:17:47</sys_created_on>
+        <sys_id>c43e5a2f1b24f110d991c882604bcb2e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-08-15 13:17:47</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>11db354a1b6475d08d594047bc4bcbbb</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="c43e5a2f1b24f110d991c882604bcb2e">c43e5a2f1b24f110d991c882604bcb2e</sys_attachment>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:17:47</sys_created_on>
+        <sys_id>083e5a2f1b24f110d991c882604bcb2e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5516</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="c43e5a2f1b24f110d991c882604bcb2e">c43e5a2f1b24f110d991c882604bcb2e</sys_attachment>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:17:47</sys_created_on>
+        <sys_id>883e5a2f1b24f110d991c882604bcb2e</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8ae0c9b70000001</claim_timestamp>
+        <metadata_update_name>sc_category_11db354a1b6475d08d594047bc4bcbbb</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:31:42</sys_created_on>
+        <sys_id>8a4048bc1bd13d108d594047bc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:31:42</sys_updated_on>
+    </sys_claim>
+</record_update>

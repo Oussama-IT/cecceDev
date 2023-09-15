@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <description_field/>
+        <info_fields/>
+        <info_widget/>
+        <info_widget_param/>
+        <show_description>always</show_description>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-12 05:43:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>c25b4ca6c7511010edc3620927c2601e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>business_app_request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Application Portfolio Management Core" source="com.snc.apm_core">63a22bf61b3621108d594047bc4bcb7a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>ticket_configuration_c25b4ca6c7511010edc3620927c2601e</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+        <table>business_app_request</table>
+    </ticket_configuration>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adfd8060000002</claim_timestamp>
+        <metadata_update_name>ticket_configuration_c25b4ca6c7511010edc3620927c2601e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:30:40</sys_created_on>
+        <sys_id>030004bc1bd13d108d594047bc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adfd8060000001</claim_timestamp>
+        <metadata_update_name>ticket_configuration_c25b4ca6c7511010edc3620927c2601e</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.apm_core</previous_claim_name>
+        <previous_claim_scope>com.snc.apm_core</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:30:40</sys_created_on>
+        <sys_id>c30004bc1bd13d108d594047bc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+    </sys_claim>
+</record_update>

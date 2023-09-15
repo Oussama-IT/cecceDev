@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Office services such as printing, supplies requisition
+			and document shipping and delivery.
+		</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image>c1ee9a6f1b24f110d991c882604bcba9</homepage_image>
+        <homepage_renderer/>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2005-10-31 21:30:13</sys_created_on>
+        <sys_id>109cdff8c6112276003b17991a09ad65</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Office</sys_name>
+        <sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">cbec9fba1bb221108d594047bc4bcb95</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sc_category_109cdff8c6112276003b17991a09ad65</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:09</sys_updated_on>
+        <title>Office</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=109cdff8c6112276003b17991a09ad65"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>109cdff8c6112276003b17991a09ad65</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2105a78f1b87ed108d594047bc4bcbb9</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sc_category</tablename>
+        <value>Les services de bureau comme l'impression, les demandes de fournitures
+    ainsi que l'expédition et la livraison de documents.
+  </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>109cdff8c6112276003b17991a09ad65</documentkey>
+        <fieldname>title</fieldname>
+        <language>fq</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0ea42f471b87ed108d594047bc4bcb6e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sc_category</tablename>
+        <value>Bureau</value>
+    </sys_translated_text>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#8b909b</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash>a2b97b6a7ceeb4d97609ffdb363f650b312a15d6df5512b342c740d532ad151c</hash>
+        <image_height>70</image_height>
+        <image_width>70</image_width>
+        <size_bytes>1325</size_bytes>
+        <size_compressed>1348</size_compressed>
+        <state>available</state>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:20:51</sys_created_on>
+        <sys_id>c1ee9a6f1b24f110d991c882604bcba9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-08-15 13:20:52</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>109cdff8c6112276003b17991a09ad65</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="c1ee9a6f1b24f110d991c882604bcba9">c1ee9a6f1b24f110d991c882604bcba9</sys_attachment>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:20:51</sys_created_on>
+        <sys_id>05ee9a6f1b24f110d991c882604bcba9</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AS0F0vqJUE5HDQoaCgAAAA1JSERSAAAARgAAAEYIAgAAAP5MddMAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAASdAAAEnQB3mYfeAAABMJJREFUaEPlms+LHEUYhvP3Gg8m52QTJQcvCYmgeBEWFDwJoiQkkKAXURT0ptlsjNcgBO+zv3ym3847tV/1dE/PVG/XavFm6X7r66p6uqq+7pnJlXfeu9mlvXev30YcpL7MsnIXwd9aV65e20t0y0qDwmlxFUbiHyNWo1IKcAGzVFwsvHODllQXTMlXVqt2L3lmIEyOV1XpTKq2WrVIOvGgkRkcWnwfT6RRSG2VnTqVLzyNe5nE06qehffi5V9n05Sffv4t9LWJSOLn0p2kup7MYbWdT1kePfk+dNqvgSQequxLbZ9NoeOyevPmn7bps7PQb7+WSFtL/dF98EvJS3rvzv1Q1aMCSMEsK3UxalPthHR0dHQxSExX8Hu0KxIlmIh18vmXX1sPPt4PAdZg2Cgk7fZtkNSNyunpqTJ+Z21a0piesLBtZG6C5Ow1Don+1EdamlzfUnUGqDAPbge1blbCtpE5iJRm43FI6oCi8elYVaLCT01JiSsdq8ntIDInDrk7NRXWjxSeLiOQ1CXFTjil6QtGSheINQKJMakDO+EU7X/xVW5OihQcNAJJI6PYCaeIWVosFsGcAqlzfqTySOTAkNknQgqOVR4Jp8nsqy1bFqlnfqRJkGSaqjiSjzs1FRKvAujeR5/xl1HiMGKHGUlhktrvQRqcH6kwkk0VVqCyBQWMdWFpSckdZqS0ap3KIyFNiwtUzF6IQW7QJfAg+X8cvNyQB02CVFDq4uDwVfB7dDmQtPA21CRILDPym8VyChvJysOuXiMHrL4sUBczI8nMi6gYrpJ76yaFLUe58f5dxQhMVXMiOTsTbMlRhghIjnn+4s/Xr/8G6ffnh0ZCDnMXgyqMlD5qLV3I0uJYAzW5YzC/efiUNyk/lxSJQ9glRjo+Pv4vIe2BxMITUvOisIwEkrBLgEQOaHLBQqcKExI7Sqak1gogqblgTo308PF3AQlTrRVDCu8gRZD0C+qND+6xoiikaT+CeC4RxsKzg5rG6p4lRMvpLDksm6XlDVVrBZA6VQRJw91wL1XxqLWZF7IcQzSDTOVoiggpfHCi1hnv5OSE2pmRGJP8UKjyQDlmO7UQiwVgPnA7ipz/udQvvZIKyXjIs5cmJDn1I60WnuTTdALtIz4X00W9SMhjTbWuqpb0YPGc6dS3j56R3CSO7XPJ+dVYRxJHfn/broTWZM6MJJPCe0CuwSruSN7anEisn9xkFfk4r7XUvl8yJMU3nwtn+oaIAeGkNzUMJb/E0u1gulJT8TRYC1I6P1J+idWPxHGTPIbBJkTq7D6/xBpEQrMhHRy+CvPjTe9LcEIm2AQJDc5VeSSe9+zm1FSY3kd17ESfhm2IJPVQFUf6lbfPMAKFFUdaR1UY6Ycff8G5ACSpk6okEvsnT+KSeJAvwbEpbYeUUxVDUtPrkKz0kqAtkKSQisogudFZkFA6V7siNb80r5qbCwn5tu6EpN8tfYpmREK6uTsh6VO0T5GQGBbBnWoaWA4xF1fp2rRBx6dmj/jUOIykRuspYXi5/pdIt+7cf/DJfiX68O6nYXi5Ruyly6L2f/Pnz2Ap+YZtqVBbp/qQTJIqxFSoTZCWVfx9e1o71Vqkrm9GWyo7dWoUkiLrRrp++1/qKJbDGN84fAAAAABJRU5ErkJggmCKx3MtBQAA</data>
+        <length>1784</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="c1ee9a6f1b24f110d991c882604bcba9">c1ee9a6f1b24f110d991c882604bcba9</sys_attachment>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-08-15 13:20:51</sys_created_on>
+        <sys_id>85ee9a6f1b24f110d991c882604bcba9</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adbb5050000001</claim_timestamp>
+        <metadata_update_name>sc_category_109cdff8c6112276003b17991a09ad65</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:09</sys_created_on>
+        <sys_id>780f736c1bd13d108d594047bc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:09</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adbb5040000001</claim_timestamp>
+        <metadata_update_name>sc_category_109cdff8c6112276003b17991a09ad65</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:09</sys_created_on>
+        <sys_id>3c0f736c1bd13d108d594047bc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:09</sys_updated_on>
+    </sys_claim>
+</record_update>

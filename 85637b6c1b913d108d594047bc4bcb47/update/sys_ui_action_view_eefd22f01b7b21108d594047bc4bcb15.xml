@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-06-30 18:36:24</sys_created_on>
+        <sys_id>eefd22f01b7b21108d594047bc4bcb15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notification Preferences.Default view</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_ui_action display_value="Notification Preferences">35cfb8724a3599d21b0ab80998221a49</sys_ui_action>
+        <sys_ui_view display_value="Default view" name="NULL">Default view</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_eefd22f01b7b21108d594047bc4bcb15</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:29:43</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adefb1d0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_action_view_eefd22f01b7b21108d594047bc4bcb15</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:29:43</sys_created_on>
+        <sys_id>1ddf33ac1bd13d108d594047bc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:29:43</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aa53ab00000001</claim_timestamp>
+        <metadata_update_name>sys_ui_action_view_eefd22f01b7b21108d594047bc4bcb15</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global 2</previous_claim_name>
+        <previous_claim_scope>3f6f6fe41b913d108d594047bc4bcbd8</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:29:43</sys_created_on>
+        <sys_id>51df33ac1bd13d108d594047bc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:29:43</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_user" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="User - Default view" name="sys_user" related_list="NULL" sys_domain="global" view="Default view">3a9cd6b01b3b21108d594047bc4bcbb6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-06-30 17:20:30</sys_created_on>
+            <sys_id>fe9cd6b01b3b21108d594047bc4bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-06-30 17:20:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>User - Default view</calculated_name>
+            <filter/>
+            <name>sys_user</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-06-30 17:20:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a9cd6b01b3b21108d594047bc4bcbb6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>User - Default view</sys_name>
+            <sys_package display_value="Skills Management" source="com.snc.skills_management">e06e319b1b972950d991c882604bcbd6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+            <sys_update_name>sys_ui_related_sys_user_null</sys_update_name>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-09-12 19:26:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adbb9620000001</claim_timestamp>
+        <metadata_update_name>sys_ui_related_sys_user_null</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:10</sys_created_on>
+        <sys_id>050f736c1bd13d108d594047bc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:10</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8691f0400000002</claim_timestamp>
+        <metadata_update_name>sys_ui_related_sys_user_null</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Cecce Global changes</previous_claim_name>
+        <previous_claim_scope>dec827101bd97910d991c882604bcb37</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:10</sys_created_on>
+        <sys_id>890f736c1bd13d108d594047bc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:10</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8691f0400000001</claim_timestamp>
+        <metadata_update_name>sys_ui_related_sys_user_null</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.skills_management</previous_claim_name>
+        <previous_claim_scope>com.snc.skills_management</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:10</sys_created_on>
+        <sys_id>c50f736c1bd13d108d594047bc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:10</sys_updated_on>
+    </sys_claim>
+</record_update>

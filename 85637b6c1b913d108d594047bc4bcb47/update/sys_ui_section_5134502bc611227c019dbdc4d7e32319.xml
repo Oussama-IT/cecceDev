@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5134502bc611227c019dbdc4d7e32319" sys_domain="global" table="sys_user" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>photo</element>
+            <position>0</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>1e33324f1b5079908d594047bc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>1233324f1b5079908d594047bc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>1633324f1b5079908d594047bc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_niso</element>
+            <position>3</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>1a33324f1b5079908d594047bc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_consentement_parental</element>
+            <position>4</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>9a33324f1b5079908d594047bc4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nom_du_titulaire</element>
+            <position>5</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>9e33324f1b5079908d594047bc4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_de_naissance</element>
+            <position>6</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>9233324f1b5079908d594047bc4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_classe</element>
+            <position>7</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>9633324f1b5079908d594047bc4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nom_de_l_ecole</element>
+            <position>8</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-01 15:17:02</sys_created_on>
+            <sys_id>9a33324f1b5079908d594047bc4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-01 15:17:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nombre_de_cas</element>
+            <position>9</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-23 14:23:54</sys_created_on>
+            <sys_id>220a378a1bf07d10d991c882604bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-23 14:23:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tuteur</element>
+            <position>10</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-23 18:32:12</sys_created_on>
+            <sys_id>b3d2b0d21b3c35108d594047bc4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-23 18:32:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_tuteur</element>
+            <position>11</position>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-23 18:32:13</sys_created_on>
+            <sys_id>7bd2b0d21b3c35108d594047bc4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-08-23 18:32:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>GUEST</sys_created_by>
+            <sys_created_on>2004-05-02 00:00:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5134502bc611227c019dbdc4d7e32319</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Non Interactive Sessions" source="com.glide.security.non_interactive_users">739edb361bf221108d594047bc4bcb96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+            <sys_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</sys_update_name>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-09-12 19:20:58</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8ad6f64f0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:20:58</sys_created_on>
+        <sys_id>41ddbbe81bd13d108d594047bc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:20:58</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a86887ab40000002</claim_timestamp>
+        <metadata_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Cecce Global changes</previous_claim_name>
+        <previous_claim_scope>dec827101bd97910d991c882604bcb37</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:20:58</sys_created_on>
+        <sys_id>49ddbbe81bd13d108d594047bc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:20:58</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a86887ab40000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.security.non_interacti</previous_claim_name>
+        <previous_claim_scope>com.glide.security.non_interacti</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:20:58</sys_created_on>
+        <sys_id>85ddbbe81bd13d108d594047bc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:20:58</sys_updated_on>
+    </sys_claim>
+</record_update>

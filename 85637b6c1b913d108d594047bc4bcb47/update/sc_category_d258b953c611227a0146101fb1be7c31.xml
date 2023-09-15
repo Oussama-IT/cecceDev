@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Order from a variety of hardware to meet your business
+			needs, including phones, tablets and laptops.
+		</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer/>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>card</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="IT">11db354a1b6475d08d594047bc4bcbbb</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2005-10-22 19:19:19</sys_created_on>
+        <sys_id>d258b953c611227a0146101fb1be7c31</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="Service Catalog core applications" source="com.glideapp.servicecatalog">cbec9fba1bb221108d594047bc4bcb95</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sc_category_d258b953c611227a0146101fb1be7c31</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:03</sys_updated_on>
+        <title>Hardware</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d258b953c611227a0146101fb1be7c31"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d258b953c611227a0146101fb1be7c31</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:06:28</sys_created_on>
+        <sys_id>3405a38f1b87ed108d594047bc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:06:28</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Commander parmi une variété de matériel pour répondre à vos besoins
+   d'entreprise, y compris des téléphones, des tablettes et des ordinateurs portables.
+  </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d258b953c611227a0146101fb1be7c31</documentkey>
+        <fieldname>title</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:06:28</sys_created_on>
+        <sys_id>74b42f871b87ed108d594047bc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:06:28</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Matériel</value>
+    </sys_translated_text>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>609</size_bytes>
+        <size_compressed>627</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-01-16 11:18:50</sys_created_on>
+        <sys_id>c4b933e9471211002ee987e8dee49064</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2023-06-19 14:59:28</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>d258b953c611227a0146101fb1be7c31</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="c4b933e9471211002ee987e8dee49064">c4b933e9471211002ee987e8dee49064</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-01-16 11:18:50</sys_created_on>
+        <sys_id>08b933e9471211002ee987e8dee49064</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcEGJHfp36gEUpIlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU20YGJiYPV0cQypuvZllmNdsINLme5TxxYSdMo3zFJ6xvJ2x9gmLb3rbEubiK8ItOZLVzBG7njNNfTFHUWbheZZFXJyLJAqyPv+/JMySwm639/ufnMMSLI4CS6aueaXCc7iBT2+CyKlFGl2r5b/Nl9ZPkanhWpqS7lH+oDCygcXj74m8nd/9TmabsnGYZKjm/pSY11LArOLABEZNDJwTYIgJJggWX7k7RyFBp0upfssEPuN3FxQVqidlzJuYq77bxPTu5CPftl5fWOuwoPZ2gv4nKYajKfa8Z4+YR+W9vbX65LwnJpXHt/7tUSx8f/Keyi1O/Zj+1JLTrp+mcoRf8ay96nnZgCd81r7wM/v2T3F45HN/feFlO2vnHYxCCiv970xXq9yVafhYBujEy8v9XvmG5FfqFmu+9JoVdOSehMcS3tfbUi6aqFebKN050T2HkUFU+MKmfOUioetb8pdOWDbrG6//LrdpTTUlMj9k32VOOf1anH95UtCawvSU6M46+RuZosUfehnWnQi2j363O+X0f5k8rSK36f89vP138y7Z1MAj4lA1TYf12eTYV9O3hi2TCeLUkFxwKo9ruQvTlA9KbguKnk4QYbYSnya0wGzKndhNR5feyZRkWGEX+nH1xT4GmeqKaZX3F9/eVHMh2svGeet5taJzUUVTRBfYa8gkr2l2EGBxvKDxVfsAw7W6vOXXt3BUM4BSkaufyzqnhCYAs/FpCmECAAA=
+		</data>
+        <length>824</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="c4b933e9471211002ee987e8dee49064">c4b933e9471211002ee987e8dee49064</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-01-16 11:18:50</sys_created_on>
+        <sys_id>48b933e9471211002ee987e8dee49064</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aca3ba10000001</claim_timestamp>
+        <metadata_update_name>sc_category_d258b953c611227a0146101fb1be7c31</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:03</sys_created_on>
+        <sys_id>11aaf3281bd13d108d594047bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:03</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aa5309f0000002</claim_timestamp>
+        <metadata_update_name>sc_category_d258b953c611227a0146101fb1be7c31</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global 2</previous_claim_name>
+        <previous_claim_scope>3f6f6fe41b913d108d594047bc4bcbd8</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:03</sys_created_on>
+        <sys_id>95aaf3281bd13d108d594047bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:03</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8aa5309f0000001</claim_timestamp>
+        <metadata_update_name>sc_category_d258b953c611227a0146101fb1be7c31</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.servicecatalog</previous_claim_name>
+        <previous_claim_scope>com.glideapp.servicecatalog</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:07:03</sys_created_on>
+        <sys_id>d1aaf3281bd13d108d594047bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:07:03</sys_updated_on>
+    </sys_claim>
+</record_update>

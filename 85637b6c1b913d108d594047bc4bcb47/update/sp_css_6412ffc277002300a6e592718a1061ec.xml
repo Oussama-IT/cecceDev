@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>.select2-results .select2-highlighted,&#13;
+.selectize-dropdown .selectize-dropdown-content .active,&#13;
+ul.dropdown-menu li a:hover,&#13;
+ul.typeahead-popup.dropdown-menu &gt; .active &gt; a {&#13;
+  background-color: $btn-primary-bg !important;&#13;
+  color: $input-border-placeholder !important;&#13;
+  outline: .3rem solid transparent !important;&#13;
+  &#13;
+  span.text-muted {&#13;
+    color: $input-border-placeholder;&#13;
+  }&#13;
+  &#13;
+  .badge {&#13;
+    color: $input-border-placeholder;&#13;
+    border-color: $input-border-placeholder;&#13;
+    background-color: $btn-primary-bg;&#13;
+  }&#13;
+}&#13;
+&#13;
+ul.select2-results {&#13;
+   padding: .4rem;&#13;
+   margin: .4rem 0 0 0;&#13;
+}&#13;
+&#13;
+// For Service Catalog old categories&#13;
+.panel-default .list-group-item .group-item-primary .badge {&#13;
+    color: $input-border-placeholder;&#13;
+    border-color: $input-border-placeholder;&#13;
+    background-color: $btn-primary-bg;&#13;
+}&#13;
+&#13;
+.select2-container-active .select2-choice,&#13;
+.select2-container-active .select2-choices {&#13;
+  border-color: $input-border-focus !important;&#13;
+}&#13;
+&#13;
+div.sp-page-root .category-widget .category-list &#13;
+  .group-item {&#13;
+	&amp;:focus, &amp;:active {&#13;
+      border: none;&#13;
+      outline: none !important;&#13;
+    }&#13;
+  }&#13;
+  &#13;
+  .group-item-default {&#13;
+      &amp;:hover, &amp;:focus {&#13;
+        background-color: #d1ebe5 !important;&#13;
+        border-left-color: #d1ebe5 !important;&#13;
+      }&#13;
+  }&#13;
+&#13;
+  .list-bg, .list-bg-primary, .list-bg-default  {&#13;
+    background-color: #fff !important;&#13;
+    border-left-color: #fff !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+.selectize-input.focus {&#13;
+  border-color: $input-border-focus !important;&#13;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px $input-border-focus !important;&#13;
+}&#13;
+&#13;
+.selectize-control.multi .selectize-input.items .item.active {&#13;
+  background-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.panel-default .panel-heading, .panel-heading.panel-la-jolla-default {&#13;
+  background-color: $component-active-bg;&#13;
+  color: $component-active-color;&#13;
+  border-color: $sp-b-border-color;&#13;
+  a{&#13;
+    color: $brand-primary-darker;&#13;
+  }&#13;
+}&#13;
+&#13;
+.breadcrumbs-container .breadcrumbs, .table-striped td, .panel-footer {&#13;
+  a:not(.text-muted):not(.btn) {&#13;
+    color: $brand-primary-darker;&#13;
+  }&#13;
+}&#13;
+.timeline-badge {&#13;
+  &amp;.success {&#13;
+    background-color: $alert-success-bg !important;&#13;
+  }&#13;
+  span {&#13;
+    color: $alert-success-text !important;&#13;
+  }&#13;
+}&#13;
+.avatar-container {&#13;
+  color: $gray;&#13;
+  .avatar .sub-avatar {&#13;
+ 	  background-color: #e5e5e5;&#13;
+  }&#13;
+}&#13;
+.btn[disabled], .btn.disabled {&#13;
+	opacity: $btn-disabled-opacity;&#13;
+}&#13;
+&#13;
+.bootstrap-datetimepicker-widget .active {&#13;
+  background-color: $brand-primary !important;&#13;
+}&#13;
+&#13;
+.slider-track .slider-handle {&#13;
+  background-color: $brand-primary;&#13;
+  background-image: linear-gradient(to bottom, lighten($brand-primary, 5%) 0, $brand-primary 100%);&#13;
+}&#13;
+&#13;
+.bootstrap-datetimepicker-widget td.today:before {&#13;
+  border-bottom-color: $brand-primary;&#13;
+}&#13;
+&#13;
+a.list-group-item {&#13;
+  &amp;.active,&#13;
+  &amp;.active:hover,&#13;
+  &amp;.active:focus {&#13;
+    background-color: #ffffff;&#13;
+    border-color: #dddddd;&#13;
+    font-weight: bold;&#13;
+  }&#13;
+}&#13;
+&#13;
+[accessibility] {&#13;
+  div.sp-page-root, div.modal { // need to put container element in selector to override default highlighting&#13;
+    .announcement-container {&#13;
+      .info-link:focus {&#13;
+        border: 1px solid white;&#13;
+        outline: 0 !important;&#13;
+        box-shadow: 0 0 0 2px #333333;&#13;
+      }&#13;
+      .fa-times.close:focus {&#13;
+        border: 1px solid white;&#13;
+        outline: 2px solid #333333 !important;&#13;
+        outline-offset: 0.1px;&#13;
+        box-shadow: none;&#13;
+      }&#13;
+      _:-ms-lang(x), .fa-times.close:focus {&#13;
+        border: 1px solid white;&#13;
+        outline: 2px solid #333333 !important;&#13;
+        box-shadow: none;&#13;
+      }&#13;
+      .text-container:focus {&#13;
+        outline: 1px solid white !important;&#13;
+        border: 2px solid #333333 !important;&#13;
+        outline-offset: -3px;&#13;
+        box-shadow: none;&#13;
+      }&#13;
+      _:-ms-lang(x), .text-container:focus {&#13;
+        outline: 2px solid #333333 !important;&#13;
+        border: 1px solid white !important;&#13;
+        box-shadow: none;&#13;
+        margin: 2px;&#13;
+      }&#13;
+    }&#13;
+    .sp-announcement-list-actions:focus {&#13;
+      outline: 1px solid white !important;&#13;
+      border: 2px solid #333333 !important;&#13;
+      outline-offset: -3px;&#13;
+      box-shadow: none;&#13;
+    }&#13;
+    _:-ms-lang(x), .sp-announcement-list-actions:focus {&#13;
+      outline: 2px solid #333333 !important;&#13;
+      border: 1px solid white !important;&#13;
+      box-shadow: none;&#13;
+      margin:2px;&#13;
+    }&#13;
+    .selectize-input.items input {&#13;
+      outline: none !important;&#13;
+      box-shadow: none !important;&#13;
+    }&#13;
+  }&#13;
+}</css>
+        <name>sp-theme-la-jolla.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-22 17:22:35</sys_created_on>
+        <sys_id>6412ffc277002300a6e592718a1061ec</sys_id>
+        <sys_mod_count>381</sys_mod_count>
+        <sys_name>sp-theme-la-jolla.css</sys_name>
+        <sys_package display_value="Service Portal La Jolla Branding" source="com.glide.service-portal.themes.la-jolla">fa9e9b361bf221108d594047bc4bcb81</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sp_css_6412ffc277002300a6e592718a1061ec</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+    </sp_css>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adfd7320000002</claim_timestamp>
+        <metadata_update_name>sp_css_6412ffc277002300a6e592718a1061ec</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:30:40</sys_created_on>
+        <sys_id>070004bc1bd13d108d594047bc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adfd7320000001</claim_timestamp>
+        <metadata_update_name>sp_css_6412ffc277002300a6e592718a1061ec</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.service-portal.themes.la-jolla</previous_claim_name>
+        <previous_claim_scope>com.glide.service-portal.themes.</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:30:40</sys_created_on>
+        <sys_id>4b0004bc1bd13d108d594047bc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:30:40</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_email_tuteur" label="Email Tuteur" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_email_tuteur</element>
+            <help/>
+            <hint/>
+            <label>Email Tuteur</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Email Tuteurs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2023-08-23 18:35:59</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Email Tuteur</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_u_email_tuteur_en</sys_update_name>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2023-09-12 19:26:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18a8adbb5770000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_sys_user_u_email_tuteur_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-12 19:26:09</sys_created_on>
+        <sys_id>f40f736c1bd13d108d594047bc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-12 19:26:09</sys_updated_on>
+    </sys_claim>
+</record_update>
