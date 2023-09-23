@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Email sending enabled</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>true</is_private>
+        <name>glide.email.smtp.active</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2009-05-28 04:04:20</sys_created_on>
+        <sys_id>856303e90a0a0bc50164129959388444</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>glide.email.smtp.active</sys_name>
+        <sys_package display_value="System (apps/system2)" source="apps/system2">c247d3321b3221108d594047bc4bcba2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_properties_856303e90a0a0bc50164129959388444</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-23 02:47:54</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=856303e90a0a0bc50164129959388444"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.email.smtp.active" tablename="sys_properties">856303e90a0a0bc50164129959388444</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8db4ef871b87ed108d594047bc4bcb65</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Expédition de courrier électronique activée</value>
+    </sys_translated_text>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18abfefbe230000001</claim_timestamp>
+        <metadata_update_name>sys_properties_856303e90a0a0bc50164129959388444</metadata_update_name>
+        <previous_claim_app_version>1.0.3</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-09-23 02:47:54</sys_created_on>
+        <sys_id>1904090c1be1b9508d594047bc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-09-23 02:47:54</sys_updated_on>
+    </sys_claim>
+</record_update>
