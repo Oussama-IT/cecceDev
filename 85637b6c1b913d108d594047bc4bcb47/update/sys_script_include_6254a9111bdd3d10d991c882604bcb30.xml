@@ -21,7 +21,7 @@ eleve_util_scripts.prototype = {
 
 		var ecousers=new GlideRecord('sys_user');
 		if (current.cat_item=='9d2cf86b1be365108d594047bc4bcb2d'){
-			ecousers.addEncodedQuery('u_nom_de_l_ecole='+userrec.u_nom_de_l_ecole+'^u_user_type=eleve^u_classe=74911a0d1b413950d991c882604bcbc3^ORu_classe=74911a0d1b413950d991c882604bcb59');
+			ecousers.addEncodedQuery('u_user_type=eleve^u_classe=74911a0d1b413950d991c882604bcbc3^ORu_classe=74911a0d1b413950d991c882604bcb59');
 		}
 		else{
 			ecousers.addEncodedQuery('u_user_type=eleve');
@@ -42,14 +42,14 @@ eleve_util_scripts.prototype = {
         <sys_created_by>servicenowdeveloper3@ecolecatholique.ca</sys_created_by>
         <sys_created_on>2023-09-14 16:07:09</sys_created_on>
         <sys_id>6254a9111bdd3d10d991c882604bcb30</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>eleve_util_scripts</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sys_script_include_6254a9111bdd3d10d991c882604bcb30</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2023-10-17 16:07:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:14:05</sys_updated_on>
     </sys_script_include>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
