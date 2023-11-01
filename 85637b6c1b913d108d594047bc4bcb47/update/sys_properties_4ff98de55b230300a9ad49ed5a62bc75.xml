@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Duration (in seconds) info and error messages persist in the Service Portal before auto-dismissal. &lt;/br&gt;Default 5, a value of zero disables auto-dismissal.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service-portal.notification_timeout.seconds</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-08 23:08:26</sys_created_on>
+        <sys_id>4ff98de55b230300a9ad49ed5a62bc75</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>glide.service-portal.notification_timeout.seconds</sys_name>
+        <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">835e17f21bf221108d594047bc4bcb15</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_properties_4ff98de55b230300a9ad49ed5a62bc75</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-11-01 19:12:40</sys_updated_on>
+        <type>string</type>
+        <value>0</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4ff98de55b230300a9ad49ed5a62bc75"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.service-portal.notification_timeout.seconds" tablename="sys_properties">4ff98de55b230300a9ad49ed5a62bc75</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>dbb4ebc71b87ed108d594047bc4bcb76</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Durée (en secondes) pendant laquelle les messages d'information et d'erreur sont conservés dans Service Portal avant de disparaître automatiquement. &lt;/br&gt;La valeur par défaut est 5, une valeur égale à zéro désactive la disparition automatique.</value>
+    </sys_translated_text>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18b8c4d570d0000001</claim_timestamp>
+        <metadata_update_name>sys_properties_4ff98de55b230300a9ad49ed5a62bc75</metadata_update_name>
+        <previous_claim_app_version>1.0.10</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-11-01 19:12:40</sys_created_on>
+        <sys_id>fe6b51781b5ebd10d991c882604bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-11-01 19:12:40</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18b8c4d570a0000001</claim_timestamp>
+        <metadata_update_name>sys_properties_4ff98de55b230300a9ad49ed5a62bc75</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.service-portal</previous_claim_name>
+        <previous_claim_scope>com.glide.service-portal</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2023-11-01 19:12:40</sys_created_on>
+        <sys_id>fa6b51781b5ebd10d991c882604bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2023-11-01 19:12:40</sys_updated_on>
+    </sys_claim>
+</record_update>
