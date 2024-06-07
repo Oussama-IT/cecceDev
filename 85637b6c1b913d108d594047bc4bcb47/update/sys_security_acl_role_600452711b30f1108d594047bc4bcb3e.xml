@@ -14,7 +14,6 @@
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
         <sys_updated_on>2023-09-12 19:35:01</sys_updated_on>
         <sys_user_role display_value="x_ndecd_sant_s_c_0.Fulfiller" name="x_ndecd_sant_s_c_0.Fulfiller">2e8817771b6075108d594047bc4bcb5f</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>

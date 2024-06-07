@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_code_fournisseur" label="Code fournisseur" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_code_fournisseur</element>
+            <help/>
+            <hint/>
+            <label>Code fournisseur</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Code fournisseurs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+            <sys_created_on>2024-03-22 18:55:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Code fournisseur</sys_name>
+            <sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_u_code_fournisseur_en</sys_update_name>
+            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2024-03-22 18:55:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

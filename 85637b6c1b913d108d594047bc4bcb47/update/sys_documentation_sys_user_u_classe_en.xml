@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_classe" label="Nivaux scolaire" language="en" table="sys_user">
+    <sys_documentation element="u_classe" label="Niveau scolaire" language="en" table="sys_user">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_classe</element>
             <help/>
             <hint/>
-            <label>Nivaux scolaire</label>
+            <label>Niveau scolaire</label>
             <language>en</language>
             <name>sys_user</name>
-            <plural>Nivaux scolaires</plural>
+            <plural>Niveau scolaires</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
             <sys_created_on>2023-07-04 12:50:00</sys_created_on>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Nivaux scolaire</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Niveau scolaire</sys_name>
             <sys_package display_value="Global" source="global">global</sys_package>
             <sys_policy/>
             <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
             <sys_update_name>sys_documentation_sys_user_u_classe_en</sys_update_name>
-            <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-            <sys_updated_on>2023-09-12 19:26:10</sys_updated_on>
+            <sys_updated_by>servicenowdeveloper3@ecolecatholique.ca</sys_updated_by>
+            <sys_updated_on>2024-03-14 17:28:23</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_classe" table="sys_user">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_adresse" table="sys_user">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Niveau scolaire</column_label>
+        <column_label>Adresse</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_classe</element>
+        <element>u_adresse</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>sys_user</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_ndecd_triage_2_0_classe">x_ndecd_triage_2_0_classe</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
-        <sys_created_on>2023-07-04 12:50:00</sys_created_on>
-        <sys_name>Niveau scolaire</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_created_on>2024-04-04 17:48:09</sys_created_on>
+        <sys_name>Adresse</sys_name>
+        <sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
-        <sys_update_name>sys_dictionary_sys_user_u_classe</sys_update_name>
-        <sys_updated_by>servicenowdeveloper3@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-03-14 17:28:23</sys_updated_on>
+        <sys_update_name>sys_dictionary_sys_user_u_adresse</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-04-04 17:48:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -71,18 +71,4 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
-        <claim_timestamp>18a8adefb5d0000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_sys_user_u_classe</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>cecce global changes</previous_claim_name>
-        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
-        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
-        <sys_created_on>2023-09-12 19:29:43</sys_created_on>
-        <sys_id>5ddf33ac1bd13d108d594047bc4bcb9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2023-09-12 19:29:43</sys_updated_on>
-    </sys_claim>
 </record_update>
