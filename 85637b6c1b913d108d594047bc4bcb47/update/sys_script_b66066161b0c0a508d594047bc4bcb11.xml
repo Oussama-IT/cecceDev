@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ndecd_demande_0_demande_d_approvisionnement</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_ndecd_demande_0_demande_d_approvisionnement">approvalVALCHANGES^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>testing message</p>]]></message>
+        <name>Add comments</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[ (function executeRule(current, previous /*null when async*/ ) {
+     var name;
+    
+     var comments = '';
+     var date;
+     gsappro = new GlideRecord('sysapproval_approver');
+     gsappro.addQuery('source_table', 'x_ndecd_demande_0_demande_d_approvisionnement');
+     gsappro.addQuery('sysapproval', current.sys_id);
+     gsappro.orderByDesc('sys_created_on');
+     gsappro.query();
+     if (gsappro.next()) {
+         name = gsappro.approver;
+         date = gsappro.sys_created_on;
+
+     }
+     if (current.approval == 'requested') {
+
+         comments = date + ' La demande est en cours de validation ';
+     }
+     if (current.approval == 'rejected') {
+
+         comments = date + ' La demande a été rejetée ';
+     }
+     if (current.approval == 'approved') {
+         comments = date + ' La demande est validée ';
+     }
+     current.comments.setJournalEntry(comments, name);
+     current.update();
+
+ })(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-02-01 15:58:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b66066161b0c0a508d594047bc4bcb11</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Add comments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_script_b66066161b0c0a508d594047bc4bcb11</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-06-07 02:35:48</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b66066161b0c0a508d594047bc4bcb11"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b66066161b0c0a508d594047bc4bcb11</documentkey>
+        <fieldname>message</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-06-06 14:38:27</sys_created_on>
+        <sys_id>77378fba1b2682108d594047bc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-06-06 14:38:27</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value>&lt;p&gt;testing message&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18ff08d62740000001</claim_timestamp>
+        <metadata_update_name>sys_script_b66066161b0c0a508d594047bc4bcb11</metadata_update_name>
+        <previous_claim_app_version>1.0.11</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-06-07 02:35:48</sys_created_on>
+        <sys_id>7b6b650f1b62c2108d594047bc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-06-07 02:35:48</sys_updated_on>
+    </sys_claim>
+</record_update>

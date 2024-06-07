@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_ndecd_demande_0_demande_d_approvisionnement</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_ndecd_demande_0_demande_d_approvisionnement">stateCHANGESTO2^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>add comments2</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	var name;
+	var date;
+    gsappro1 = new GlideRecord('sysapproval_approver');
+    gsappro1.addQuery('source_table', 'x_ndecd_demande_0_demande_d_approvisionnement');
+    gsappro1.addQuery('sysapproval', current.sys_id);
+    gsappro1.orderByDesc('sys_created_on');
+    gsappro1.query();
+    if (gsappr1.next()) {
+        name = gsappro1.approver;
+        date = gsappro1.sys_created_on;
+    }
+    var comments = date + ' Le demande a été approuvée ';
+    current.comments.setJournalEntry(comments, name);
+    current.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-06-06 17:39:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a6073f61b2a82108d594047bc4bcb55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>add comments2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_script_5a6073f61b2a82108d594047bc4bcb55</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-06-07 02:35:48</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a6073f61b2a82108d594047bc4bcb55"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>18ff08d62dc0000001</claim_timestamp>
+        <metadata_update_name>sys_script_5a6073f61b2a82108d594047bc4bcb55</metadata_update_name>
+        <previous_claim_app_version>1.0.11</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-06-07 02:35:48</sys_created_on>
+        <sys_id>ff6b650f1b62c2108d594047bc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-06-07 02:35:48</sys_updated_on>
+    </sys_claim>
+</record_update>
