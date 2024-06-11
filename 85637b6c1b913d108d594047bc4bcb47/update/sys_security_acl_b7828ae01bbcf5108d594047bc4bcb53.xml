@@ -2,9 +2,10 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
-        <condition/>
-        <description>Allow write for assigned_to in task, for users with role x_ndecd_triage_2_0.Equipe Triage.</description>
+        <advanced>true</advanced>
+        <condition table="task.assigned_to">sys_class_name=x_ndecd_demande_0_demande_d_approvisionnement^ORsys_class_name=x_ndecd_triage_2_0_demande_de_partage^ORsys_class_name=x_ndecd_triage_2_0_sli_roi^ORsys_class_name=x_ndecd_triage_2_0_demandes_priorisation_sli^ORsys_class_name=x_ndecd_triage_2_0_demande_de_consultation_avec_possibilit_d_valuation^ORsys_class_name=x_ndecd_triage_2_0_demande_tsa^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for assigned_to in task, for users with roles (x_ndecd_demande_0.admin, x_ndecd_triage_2_0.Equipe Triage), and if the ACL condition (sys_class_name=x_ndecd_demande_0_demande_d_approvisionnement^ORsys_class_name=x_ndecd_triage_2_0_demande_de_partage^ORsys_class_name=x_ndecd_triage_2_0_sli_roi^ORsys_class_name=x_ndecd_triage_2_0_demandes_priorisation_sli^ORsys_class_name=x_ndecd_triage_2_0_demande_de_consultation_avec_possibilit_d_valuation^ORsys_class_name=x_ndecd_triage_2_0_demande_tsa^EQ) evaluates to true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>task.assigned_to</name>
         <operation display_value="write">write</operation>
@@ -14,14 +15,14 @@
         <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
         <sys_created_on>2023-08-18 13:51:53</sys_created_on>
         <sys_id>b7828ae01bbcf5108d594047bc4bcb53</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>task.assigned_to</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sys_security_acl_b7828ae01bbcf5108d594047bc4bcb53</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2023-09-12 19:07:01</sys_updated_on>
+        <sys_updated_on>2024-06-10 19:26:08</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_claim action="INSERT_OR_UPDATE">
