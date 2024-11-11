@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="CECCE - Platform Administrators">5b456c531bcbed108d594047bc4bcbf3</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>admin-only</name>
+        <role/>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-11 14:17:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f6dac3d47bd52106274efbb616d4348</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>admin-only</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>user_criteria_1f6dac3d47bd52106274efbb616d4348</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-11 16:59:35</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>1931c2a9e270000001</claim_timestamp>
+        <metadata_update_name>user_criteria_1f6dac3d47bd52106274efbb616d4348</metadata_update_name>
+        <previous_claim_app_version>1.0.14</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-11 16:59:35</sys_created_on>
+        <sys_id>e7b291b9477192106274efbb616d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-11 16:59:35</sys_updated_on>
+    </sys_claim>
+</record_update>
