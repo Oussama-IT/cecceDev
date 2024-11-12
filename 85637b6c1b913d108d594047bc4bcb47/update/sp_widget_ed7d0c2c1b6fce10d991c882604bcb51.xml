@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	var userID = '/x/ndecd/demande-approvisionnement2/record/x_ndecd_demande_0_demande_d_approvisionnement/' + c.data.sys_idd;
+	c.href = userID;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {&#13;
+  background-color: #56af31;&#13;
+  border: 1px solid #13aa52;&#13;
+  border-radius: 4px;&#13;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;&#13;
+  box-sizing: border-box;&#13;
+  color: #fff;&#13;
+  cursor: pointer;&#13;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;&#13;
+  font-size: 16px;&#13;
+  font-weight: 400;&#13;
+  outline: none;&#13;
+  outline: 0;&#13;
+  padding: 400px 25px;&#13;
+  text-align: center;&#13;
+  transform: translateY(0);&#13;
+  transition: transform 150ms, box-shadow 150ms;&#13;
+  user-select: none;&#13;
+  -webkit-user-select: none;&#13;
+  touch-action: manipulation;&#13;
+}&#13;
+&#13;
+.btn:hover {&#13;
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;&#13;
+  transform: translateY(-2px);&#13;
+}&#13;
+&#13;
+@media (min-width: 768px) {&#13;
+  .btn {&#13;
+    padding: 10px 30px;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id>link2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>link2</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[data.sys_idd = $sp.getParameter("sys_id");
+data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-07-18 18:23:13</sys_created_on>
+        <sys_id>ed7d0c2c1b6fce10d991c882604bcb51</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>link2</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sp_widget_ed7d0c2c1b6fce10d991c882604bcb51</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-12 20:33:37</sys_updated_on>
+        <template><![CDATA[<a target="_blank" ng-href="{{c.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled && data.canReadKnowledgeBase">{{data.buttonMsg}}</a>
+]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>1932214efc40000001</claim_timestamp>
+        <metadata_update_name>sp_widget_ed7d0c2c1b6fce10d991c882604bcb51</metadata_update_name>
+        <previous_claim_app_version>1.0.15</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-12 20:33:37</sys_created_on>
+        <sys_id>a45dc3ca47fdd2106274efbb616d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-12 20:33:37</sys_updated_on>
+    </sys_claim>
+</record_update>
