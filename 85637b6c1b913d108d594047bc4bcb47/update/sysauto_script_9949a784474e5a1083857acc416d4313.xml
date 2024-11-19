@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Notification hebdomadaire DE Appros</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Oussema Hamdi">b3ea1b831b83ed108d594047bc4bcbfb</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>2</run_dayofweek>
+        <run_period/>
+        <run_start>2024-11-19 03:43:35</run_start>
+        <run_time>1970-01-01 13:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[var gsdirect = new GlideRecord('sys_user');
+gsdirect.addEncodedQuery('u_user_type=Appro');
+gsdirect.query();
+while (gsdirect.next()) {
+    var email = new GlideEmailOutbound();
+    email.setSubject("Alerte concernant les demandes d'approvisionnement à traiter");
+    email.setBody('Bonjour\n Nous vous informons que vous avez: '+gsdirect.u_nbr_appro+" demande(s) d'approvisionnement à valider.\n"+ '<a href="https://ceccedev.service-now.com/x/ndecd/demande-approvisionnement2/list/params/list-id/04d18cc11bfbb1108d594047bc4bcb1c/tiny-id/vmkmAYHHZFiEeumAhrV4XdAdSltnmbje">Cliquez ici pour consulter et valider les demandes</a>' );
+    email.setFrom('Service Approvisionnement');
+    email.addRecipient(gsdirect.email);
+    email.save();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-19 03:44:27</sys_created_on>
+        <sys_id>9949a784474e5a1083857acc416d4313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Notification hebdomadaire DE Appros</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sysauto_script_9949a784474e5a1083857acc416d4313</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-19 03:49:00</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>1934289b1820000001</claim_timestamp>
+        <metadata_update_name>sysauto_script_9949a784474e5a1083857acc416d4313</metadata_update_name>
+        <previous_claim_app_version>1.0.16</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-19 03:49:00</sys_created_on>
+        <sys_id>308a2fc4474e5a1083857acc416d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-19 03:49:00</sys_updated_on>
+    </sys_claim>
+</record_update>
