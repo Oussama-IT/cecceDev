@@ -66,15 +66,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-10 15:15:42</sys_created_on>
         <sys_id>1cbcddac87919914481ffe27cebb35d3</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Request/Remove Desktop/Laptop Computer</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sc_cat_item_1cbcddac87919914481ffe27cebb35d3</sys_update_name>
-        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-11-11 16:59:36</sys_updated_on>
-        <taxonomy_topic display_value="Service Request Items">ebfcefa41b6206908d594047bc4bcb9c</taxonomy_topic>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-12-02 13:20:31</sys_updated_on>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -82,7 +82,7 @@
         <u_approval_type>manager</u_approval_type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>15</version>
+        <version>16</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

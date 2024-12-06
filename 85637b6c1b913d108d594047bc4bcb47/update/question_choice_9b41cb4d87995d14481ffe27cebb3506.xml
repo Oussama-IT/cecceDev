@@ -3,20 +3,20 @@
         <inactive>false</inactive>
         <order>100</order>
         <published_ref/>
-        <question display_value="Request Type">a320cfc987995d14481ffe27cebb3524</question>
+        <question display_value="Type de demande">a320cfc987995d14481ffe27cebb3524</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-12 11:51:19</sys_created_on>
         <sys_id>9b41cb4d87995d14481ffe27cebb3506</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Add</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ajouter</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>question_choice_9b41cb4d87995d14481ffe27cebb3506</sys_update_name>
-        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-11-11 16:59:33</sys_updated_on>
-        <text>Add</text>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-12-03 15:04:30</sys_updated_on>
+        <text>Ajouter</text>
         <value>Add</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=9b41cb4d87995d14481ffe27cebb3506"/>

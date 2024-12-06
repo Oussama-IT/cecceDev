@@ -23,7 +23,7 @@ gsdirect.query();
 while (gsdirect.next()) {
     var email = new GlideEmailOutbound();
     email.setSubject("Alerte concernant les demandes d'approvisionnement à traiter");
-    email.setBody('Bonjour\n Nous vous informons que vous avez: '+gsdirect.u_nbr_appro+" demande(s) d'approvisionnement à valider.\n"+ '<a href="https://ceccedev.service-now.com/x/ndecd/demande-approvisionnement2/list/params/list-id/04d18cc11bfbb1108d594047bc4bcb1c/tiny-id/vmkmAYHHZFiEeumAhrV4XdAdSltnmbje">Cliquez ici pour consulter et valider les demandes</a>' );
+    email.setBody('Bonjour\n Nous vous informons que vous avez: '+gsdirect.u_nbr_appro+" demande(s) d'approvisionnement à valider.\n"+ '<a href="https://cecceprod.service-now.com/x/ndecd/demande-approvisionnement2/list/params/list-id/04d18cc11bfbb1108d594047bc4bcb1c/tiny-id/5tSoz785mh2r3I5HvOiVxxeT5ktVUbes">Cliquez ici pour consulter et valider les demandes</a>' );
     email.setFrom('Service Approvisionnement');
     email.addRecipient(gsdirect.email);
     email.save();
@@ -32,14 +32,14 @@ while (gsdirect.next()) {
         <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
         <sys_created_on>2024-11-19 03:44:27</sys_created_on>
         <sys_id>9949a784474e5a1083857acc416d4313</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Notification hebdomadaire DE Appros</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sysauto_script_9949a784474e5a1083857acc416d4313</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-11-19 03:49:00</sys_updated_on>
+        <sys_updated_on>2024-12-06 14:38:32</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
@@ -57,4 +57,15 @@ while (gsdirect.next()) {
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
         <sys_updated_on>2024-11-19 03:49:00</sys_updated_on>
     </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>9949a784474e5a1083857acc416d4313</id>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-12-06 14:38:32</sys_created_on>
+        <sys_id>c932e13d475e561083857acc416d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-12-06 14:38:32</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

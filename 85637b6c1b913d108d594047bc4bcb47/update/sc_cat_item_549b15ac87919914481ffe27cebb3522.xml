@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>This Catalog item is used to request/remove access</p>]]></description>
+        <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -29,7 +29,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Request/Remove Access</name>
+        <name>Demander/Supprimer l'accès</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -58,7 +58,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Request/Remove Access</short_description>
+        <short_description>Demander/Supprimer l'accès</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -66,15 +66,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-10 15:11:14</sys_created_on>
         <sys_id>549b15ac87919914481ffe27cebb3522</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_name>Request/Remove Access</sys_name>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Demander/supprimer l'accès</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sc_cat_item_549b15ac87919914481ffe27cebb3522</sys_update_name>
-        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-11-11 16:59:34</sys_updated_on>
-        <taxonomy_topic display_value="Service Request Items">ebfcefa41b6206908d594047bc4bcb9c</taxonomy_topic>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-12-03 15:17:56</sys_updated_on>
+        <taxonomy_topic display_value="Applications">36ad8a831b2cce508d594047bc4bcba9</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -82,13 +82,52 @@
         <u_approval_type>manager</u_approval_type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>16</version>
+        <version>36</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow display_value="Request/Remove Access">cd41900a1bdb06108d594047bc4bcb6a</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=549b15ac87919914481ffe27cebb3522"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>549b15ac87919914481ffe27cebb3522</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-27 14:00:35</sys_created_on>
+        <sys_id>1d33433a4706da506274efbb616d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-12-03 15:17:56</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>549b15ac87919914481ffe27cebb3522</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-27 14:00:35</sys_created_on>
+        <sys_id>91330ff64706da506274efbb616d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-27 14:00:35</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Demander/supprimer l'accès</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>549b15ac87919914481ffe27cebb3522</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-11-27 14:00:35</sys_created_on>
+        <sys_id>99330ff64706da506274efbb616d437d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2024-11-27 14:00:36</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Demander/supprimer l'accès</value>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=549b15ac87919914481ffe27cebb3522"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>150</amount>

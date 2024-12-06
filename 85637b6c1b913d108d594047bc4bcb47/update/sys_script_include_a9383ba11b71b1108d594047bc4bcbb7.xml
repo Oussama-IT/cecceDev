@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>eleve_ajax_utils</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var eleve_ajax_utils = Class.create();
 eleve_ajax_utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
    getclasse : function(){
