@@ -12,6 +12,7 @@
         <element label="Tuteur" max_length="100" name="u_tuteur" type="string"/>
         <element label="Nom du titulaire" max_length="32" name="u_nom_du_titulaire" reference="sys_user" type="reference"/>
         <element label="Niveau scolaire" max_length="32" name="u_classe" reference="x_ndecd_triage_2_0_classe" type="reference"/>
+        <element default="0" label="Nbr appro" max_length="40" name="u_nbr_appro" type="integer"/>
         <index name="index">
             <element name="u_classe"/>
         </index>
