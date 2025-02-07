@@ -2,11 +2,12 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Demander/Supprimer l'accès">549b15ac87919914481ffe27cebb3522</cat_item>
+        <cat_item display_value="Demander / modifier l'accès à un logiciel">549b15ac87919914481ffe27cebb3522</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>name</choice_field>
+        <choice_table>pc_software_cat_item</choice_table>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -41,13 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>access_type</name>
+        <name>nom_de_l_application</name>
+        <not_available_conversation>false</not_available_conversation>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Type d'accès</question_text>
+        <question_text>Nom de l'application</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -55,9 +57,14 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference>sys_choice</reference>
+        <reference_qual>name=incident^element=subcategory^dependent_value=software^inactive=false^EQ</reference_qual>
+        <reference_qual_condition table="sys_choice">name=incident^element=subcategory^dependent_value=software^inactive=false^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="incident"/>
+            <item endquery="false" field="element" goto="false" newquery="false" operator="=" or="false" value="subcategory"/>
+            <item endquery="false" field="dependent_value" goto="false" newquery="false" operator="=" or="false" value="software"/>
+            <item endquery="false" field="inactive" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script/>
@@ -71,17 +78,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-10 15:33:39</sys_created_on>
         <sys_id>46e0e5a487d19914481ffe27cebb35aa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Type d'accès</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Nom de l'application</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>item_option_new_46e0e5a487d19914481ffe27cebb35aa</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-12-03 15:16:13</sys_updated_on>
+        <sys_updated_on>2025-01-07 16:23:07</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <topic_block/>
+        <type>8</type>
+        <u_field_name_1/>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,6 +107,58 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=46e0e5a487d19914481ffe27cebb35aa"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>46e0e5a487d19914481ffe27cebb35aa</documentkey>
+        <fieldname>conversational_label</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-01-07 16:23:07</sys_created_on>
+        <sys_id>0d0dee404707d2106274efbb616d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:23:07</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>46e0e5a487d19914481ffe27cebb35aa</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-01-07 16:23:07</sys_created_on>
+        <sys_id>010d2e404707d2106274efbb616d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:23:07</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>46e0e5a487d19914481ffe27cebb35aa</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-01-07 16:23:07</sys_created_on>
+        <sys_id>490dee404707d2106274efbb616d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:23:07</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>46e0e5a487d19914481ffe27cebb35aa</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-01-07 16:23:07</sys_created_on>
+        <sys_id>4d0dee404707d2106274efbb616d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:23:07</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=46e0e5a487d19914481ffe27cebb35aa"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

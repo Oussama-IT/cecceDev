@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="all_tables.text_index_translations=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="da671f321b3221108d594047bc4bcb93" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="Utilisateur" max_length="40" name="sys_user" text_index="true" type="collection">
         <element label="Date de naissance" max_length="40" name="u_date_de_naissance" type="glide_date"/>
-        <element label="Nom de l'école" max_length="32" name="u_nom_de_l_ecole" reference="x_ndecd_student_0_school" type="reference"/>
+        <element label="Nom de l'école" max_length="32" name="u_nom_de_l_ecole" reference="x_ndecd_gestion_1_school" type="reference"/>
         <element label="NISO" max_length="1000" name="u_niso" type="string"/>
         <element label="Nombre de cas" max_length="40" name="u_nombre_de_cas" type="integer"/>
         <element label="Code fournisseur" max_length="40" name="u_code_fournisseur" reference="x_ndecd_rembours_0_liste_fournisseur" type="reference"/>

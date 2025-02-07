@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.dateCompare</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>dateCompare</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var dateCompare = Class.create();
+dateCompare.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    //  calculate the days between two dates 
+    datediff: function() {
+        var date_from  ;
+        var date_to  ;
+        date_from = new GlideDateTime();
+		date_to = new GlideDateTime();
+
+		date_to.setDisplayValue(this.getParameter('date_to'), 'dd/MM/yyyy');
+		date_from.setDisplayValue(this.getParameter('date_from'), "dd/MM/yyyy");
+		
+        var dur = new GlideDuration();
+        dur = GlideDateTime.subtract(date_from, date_to);
+        var days = dur.getDayPart();
+		
+        return days;
+    },
+ 
+    //compare three dates 
+    compare_tree_dates: function() {
+
+        var date_from ; 
+        var date_to ; 
+        var date_now ;
+
+        date_from = new GlideDateTime();
+        date_to = new GlideDateTime();
+        date_now = new GlideDateTime();
+
+		date_from.setDisplayValue(this.getParameter('date_from'), "dd/MM/yyyy");
+        date_to.setDisplayValue(this.getParameter('date_to'), 'dd/MM/yyyy');
+        date_now.setDisplayValue(this.getParameter('date_now'), "dd/MM/yyyy");
+
+
+        var dur1 = new GlideDuration();
+        var dur2 = new GlideDuration();
+        dur1 = GlideDateTime.subtract(date_from, date_now);
+        dur2 = GlideDateTime.subtract(date_now, date_to);
+        var days1 = dur1.getDayPart();
+        var days2 = dur2.getDayPart();
+        if (days1 >= 0 && days2 >= 0) {
+            return true;
+        } else {
+            return false;
+        }
+
+    },
+    compare_dr_dates: function() {
+        var date ;
+        var userID = this.getParameter('userID');
+
+        date = new GlideDateTime();
+		date.setDisplayValue(this.getParameter('date_from'),'dd/MM/yyyy');
+
+        var dur1 = new GlideDuration();
+        var dur2 = new GlideDuration();
+        //GET ALL DE
+        var gr = new GlideRecord('x_ndecd_rembours_0_remboursement_de_frais');
+        gr.addEncodedQuery('stateNOT IN4,7^opened_by.sys_idSTARTSWITH' + userID);
+        gr.query();
+        while (gr.next()) {
+
+            var dde ;
+            var da ;
+            dde = new GlideDateTime();
+            da = new GlideDateTime();
+
+			dde.setDisplayValue(gr.de,'dd/MM/yyyy');
+			da.setDisplayValue(gr.a,'dd/MM/yyyy');
+
+            dur1 = GlideDateTime.subtract(dde, date);
+            dur2 = GlideDateTime.subtract(date, da);
+            var days1 = dur1.getDayPart();
+            var days2 = dur2.getDayPart();
+            if (days1 >= 0 && days2 >= 0) {
+                return false;
+            }
+        }
+        return true;
+
+    },
+
+
+    type: 'dateCompare'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2024-03-31 18:46:23</sys_created_on>
+        <sys_id>67cc365d1bd146908d594047bc4bcb7e</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>dateCompare</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_script_include_67cc365d1bd146908d594047bc4bcb7e</sys_update_name>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-02-07 16:56:29</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</claim_owner_scope>
+        <claim_timestamp>194e15767fb0000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_67cc365d1bd146908d594047bc4bcb7e</metadata_update_name>
+        <previous_claim_app_version>1.1.2</previous_claim_app_version>
+        <previous_claim_name>cecce global changes</previous_claim_name>
+        <previous_claim_scope>85637b6c1b913d108d594047bc4bcb47</previous_claim_scope>
+        <sys_created_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-02-07 16:56:29</sys_created_on>
+        <sys_id>08fd560a472f1a1083857acc416d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-02-07 16:56:29</sys_updated_on>
+    </sys_claim>
+</record_update>
