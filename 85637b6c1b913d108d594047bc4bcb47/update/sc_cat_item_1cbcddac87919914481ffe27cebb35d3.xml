@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
-        <active>true</active>
+        <active>false</active>
         <availability>on_both</availability>
         <billable>false</billable>
         <category display_value="Hardware">014bd56c87919914481ffe27cebb35af</category>
@@ -66,14 +66,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-10 15:15:42</sys_created_on>
         <sys_id>1cbcddac87919914481ffe27cebb35d3</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Request/Remove Desktop/Laptop Computer</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sc_cat_item_1cbcddac87919914481ffe27cebb35d3</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2024-12-02 13:20:31</sys_updated_on>
+        <sys_updated_on>2025-02-25 16:47:49</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -82,13 +82,52 @@
         <u_approval_type>manager</u_approval_type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>16</version>
+        <version>17</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow display_value="Request/Remove Desktop/Laptop Computer">f69e8c061bdb06108d594047bc4bcb7d</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=1cbcddac87919914481ffe27cebb35d3"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1cbcddac87919914481ffe27cebb35d3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-02-25 16:47:49</sys_created_on>
+        <sys_id>349843ff47f3929083857acc416d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:47:49</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>&lt;p&gt;This catalog item is used to request/remove a Desktop/Laptop Computer&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1cbcddac87919914481ffe27cebb35d3</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-02-25 16:47:49</sys_created_on>
+        <sys_id>bc9843ff47f3929083857acc416d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:47:49</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Request/Remove Desktop/Laptop Computer</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1cbcddac87919914481ffe27cebb35d3</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-02-25 16:47:49</sys_created_on>
+        <sys_id>789843ff47f3929083857acc416d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ServiceNowDeveloper4@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:47:49</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Request/Remove Desktop/Laptop Computer</value>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=1cbcddac87919914481ffe27cebb35d3"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>5500</amount>
