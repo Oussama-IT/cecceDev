@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="request_filter">
+    <request_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>1</applies_to>
+        <data_item/>
+        <filter table="x_ndecd_triage_2_0_demande_tsa">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^OReleveDYNAMIC96a3cfd547a16e1083857acc416d4307^sys_class_name!=x_ndecd_triage_2_0_roi_cs^sys_class_name!=x_ndecd_triage_2_0_scs^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="eleve" goto="false" newquery="false" operator="DYNAMIC" or="true" value="96a3cfd547a16e1083857acc416d4307"/>
+            <item display_value="ROI-CS" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_triage_2_0_roi_cs"/>
+            <item display_value="SCS" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_triage_2_0_scs"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <item_stream/>
+        <last_used/>
+        <mobile>false</mobile>
+        <portal_page display_value="ticket">84af292247132100ba13a5554ee4909e</portal_page>
+        <primary_display>short_description</primary_display>
+        <roles/>
+        <secondary_display>number,eleve,opened_at,opened_by,sys_class_name</secondary_display>
+        <short_description/>
+        <sys_class_name>request_filter</sys_class_name>
+        <sys_created_by>KHARRF@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-05-21 20:33:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8faa51747e5e6106274efbb616d43e7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>CECCE TSA/CS</sys_name>
+        <sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>request_filter_c8faa51747e5e6106274efbb616d43e7</sys_update_name>
+        <sys_updated_by>KHARRF@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:07:17</sys_updated_on>
+        <table>x_ndecd_triage_2_0_demande_tsa</table>
+        <table_name/>
+        <title>CECCE TSA/CS</title>
+        <user/>
+    </request_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8faa51747e5e6106274efbb616d43e7"/>
+</record_update>

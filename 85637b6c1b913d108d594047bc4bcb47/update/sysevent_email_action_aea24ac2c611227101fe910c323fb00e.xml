@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
         <collection>sysapproval_approver</collection>
-        <condition table="sysapproval_approver">source_table!=x_ndecd_demande_0_approvisionnements^source_table!=x_ndecd_demande_0_demande_de_d_passement_de_co_ts_et_ou_modification_d_un_contra^source_table!=x_ndecd_demande_0_demande_d_approvisionnement^source_table!=x_ndecd_sant_s_c_0_declaration_devenement_caractere_violent^source_table!=x_ndecd_sant_s_c_0_declaration_d_evenement_accidentel^source_table!=x_ndecd_triage_2_0_demandes_priorisation_roi^source_table!=x_ndecd_triage_2_0_demandes_priorisation_sli^source_table!=x_ndecd_triage_2_0_demande_de_consultation_avec_possibilit_d_valuation^source_table!=x_ndecd_triage_2_0_demande_de_partage^source_table!=x_ndecd_triage_2_0_demande_sep_li_e_aux_difficult_s_lecture_ecriture^source_table!=x_ndecd_triage_2_0_demande_tsa^source_table!=x_ndecd_triage_2_0_envoi_d_un_formulaire_de_consentement_pour_le_programme_roi^source_table!=x_ndecd_triage_2_0_sli_roi^source_table!=x_ndecd_gestion_0_cecce_contrat^source_table!=x_ndecd_rembours_0_demande_de_cheque^source_table!=x_ndecd_rembours_0_remboursement_de_frais^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_demande_0_approvisionnements"/>
+        <condition table="sysapproval_approver">source_table!=x_ndecd_demande_0_approvisionnements^source_table!=x_ndecd_demande_0_demande_de_d_passement_de_co_ts_et_ou_modification_d_un_contra^source_table!=x_ndecd_demande_0_demande_d_approvisionnement^source_table!=x_ndecd_sant_s_c_0_declaration_devenement_caractere_violent^source_table!=x_ndecd_sant_s_c_0_declaration_d_evenement_accidentel^source_table!=x_ndecd_triage_2_0_demandes_priorisation_roi^source_table!=x_ndecd_triage_2_0_demandes_priorisation_sli^source_table!=x_ndecd_triage_2_0_demande_de_consultation_avec_possibilit_d_valuation^source_table!=x_ndecd_triage_2_0_demande_de_partage^source_table!=x_ndecd_triage_2_0_demande_sep_li_e_aux_difficult_s_lecture_ecriture^source_table!=x_ndecd_triage_2_0_demande_tsa^source_table!=x_ndecd_triage_2_0_envoi_d_un_formulaire_de_consentement_pour_le_programme_roi^source_table!=x_ndecd_triage_2_0_sli_roi^source_table!=x_ndecd_gestion_0_cecce_contrat^source_table!=x_ndecd_rembours_0_demande_de_cheque^source_table!=x_ndecd_rembours_0_remboursement_de_frais^source_table!=x_ndecd_triage_2_0_demande_tsa_cs_caa^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_demande_0_approvisionnements"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_demande_0_demande_de_d_passement_de_co_ts_et_ou_modification_d_un_contra"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_demande_0_demande_d_approvisionnement"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_sant_s_c_0_declaration_devenement_caractere_violent"/>
@@ -23,6 +23,7 @@
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_gestion_0_cecce_contrat"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_rembours_0_demande_de_cheque"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_rembours_0_remboursement_de_frais"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="!=" or="false" value="x_ndecd_triage_2_0_demande_tsa_cs_caa"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>multipart/mixed</content_type>
@@ -73,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path/>
         <sys_id>aea24ac2c611227101fe910c323fb00e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Approval Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Management Basics" source="com.snc.service">48fb93761bb221108d594047bc4bcb09</sys_package>
@@ -81,7 +82,7 @@
         <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
         <sys_update_name>sysevent_email_action_aea24ac2c611227101fe910c323fb00e</sys_update_name>
         <sys_updated_by>ServiceNowDeveloper2@ecolecatholique.ca</sys_updated_by>
-        <sys_updated_on>2025-03-26 14:01:03</sys_updated_on>
+        <sys_updated_on>2025-04-14 16:00:56</sys_updated_on>
         <sys_version/>
         <template display_value="CECCE change.itil.approve.role">64fd21dc47db1a106274efbb616d4363</template>
         <type>email</type>

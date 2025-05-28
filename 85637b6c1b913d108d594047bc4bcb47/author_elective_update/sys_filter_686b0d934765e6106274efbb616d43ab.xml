@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter/>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>KHARRF@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-05-21 18:14:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>686b0d934765e6106274efbb616d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CECCE TSA/CS CAA</sys_name>
+        <sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_update_name>sys_filter_686b0d934765e6106274efbb616d43ab</sys_update_name>
+        <sys_updated_by>KHARRF@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:14:12</sys_updated_on>
+        <table>x_ndecd_triage_2_0_demande_tsa_cs_caa</table>
+        <title>CECCE TSA/CS CAA</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="DELETE" query="documentkey=686b0d934765e6106274efbb616d43ab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</application>
+        <file_path/>
+        <instance_id>65b29b3adb7ea19492f5684e13961931</instance_id>
+        <instance_name>ceccedev</instance_name>
+        <name>sys_filter_686b0d934765e6106274efbb616d43ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter"><sys_filter action="INSERT_OR_UPDATE"><filter/><group/><last_used/><mobile>false</mobile><roles/><sys_class_name>sys_filter</sys_class_name><sys_created_by>KHARRF@ecolecatholique.ca</sys_created_by><sys_created_on>2025-05-21 18:14:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>686b0d934765e6106274efbb616d43ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CECCE TSA/CS CAA</sys_name><sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package><sys_policy/><sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope><sys_update_name>sys_filter_686b0d934765e6106274efbb616d43ab</sys_update_name><sys_updated_by>KHARRF@ecolecatholique.ca</sys_updated_by><sys_updated_on>2025-05-21 18:14:12</sys_updated_on><table>x_ndecd_triage_2_0_demande_tsa_cs_caa</table><title>CECCE TSA/CS CAA</title><user/></sys_filter><sys_translated_text action="delete_multiple" query="documentkey=686b0d934765e6106274efbb616d43ab"/></record_update>]]></payload>
+        <payload_hash>887384066</payload_hash>
+        <record_name>CECCE TSA/CS CAA</record_name>
+        <reverted_from/>
+        <source>6fc3dda0470756106274efbb616d434b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>KHARRF@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-05-21 18:14:12</sys_created_on>
+        <sys_id>a27bc5934765e6106274efbb616d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f40d926b0000001</sys_recorded_at>
+        <sys_updated_by>KHARRF@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:14:12</sys_updated_on>
+        <type>Filter</type>
+        <update_guid>667bc5933065e610b2c252b041ce0c2e</update_guid>
+        <update_guid_history>667bc5933065e610b2c252b041ce0c2e:887384066</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>KHARRF@ecolecatholique.ca</sys_created_by>
+        <sys_created_on>2025-05-21 18:14:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>0bd27d2f79a144cc9863d01e640c2290</sys_id>
+        <sys_metadata>686b0d934765e6106274efbb616d43ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CECCE TSA/CS CAA</sys_name>
+        <sys_package display_value="cecce global changes" source="85637b6c1b913d108d594047bc4bcb47">85637b6c1b913d108d594047bc4bcb47</sys_package>
+        <sys_parent display_value="Demande TSA/CS CAA">55b0484d4768661083857acc416d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="cecce global changes">85637b6c1b913d108d594047bc4bcb47</sys_scope>
+        <sys_scope_delete display_value="">81084d63af484be085652c29d3b1c191</sys_scope_delete>
+        <sys_update_name>sys_filter_686b0d934765e6106274efbb616d43ab</sys_update_name>
+        <sys_update_version display_value="sys_filter_686b0d934765e6106274efbb616d43ab">a27bc5934765e6106274efbb616d432f</sys_update_version>
+        <sys_updated_by>KHARRF@ecolecatholique.ca</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:14:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
